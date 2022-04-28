@@ -23,4 +23,5 @@ If EAS is not yet installed run `npm i -g eas-cli`
 **IOS:** `eas build -p ios`  
 
 ### Current Limitations
-This app only fetch steps info from HealthKit & Google Fit
+1. This app only fetch steps info from HealthKit & Google Fit
+2. For Apple HealthKit, there is no way to check authorization status for read permission. The read array will always return an array of HealthStatusCode.SharingAuthorized. [See this.](https://developer.apple.com/documentation/healthkit/hkhealthstore/1614154-authorizationstatusfortype?language=objc)
