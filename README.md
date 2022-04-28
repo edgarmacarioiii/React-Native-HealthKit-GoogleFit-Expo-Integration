@@ -17,6 +17,7 @@ To setup your development environment:
 **IOS:** `expo run:ios`  
 
 ### Building a standalone application
+If EAS is not yet installed run `npm i -g eas-cli`
 
 **Android:** `eas build -p android`  
 **IOS:** `eas build -p ios`  
