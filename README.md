@@ -21,3 +21,6 @@ If EAS is not yet installed run `npm i -g eas-cli`
 
 **Android:** `eas build -p android`  
 **IOS:** `eas build -p ios`  
+
+### Current Limitations
+The app only fetch steps info from HealthKit & Google Fit
